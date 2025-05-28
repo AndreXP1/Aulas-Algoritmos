@@ -1,0 +1,9 @@
+git filter-repo --commit-callback '
+	if commit.author_email == b"suporte@univali.br":
+		commit.author_name = b"Anxp01"
+		commit.author_email == b"suporteandre02@gmail.com"
+		commit.commiter_name == b"Anxp01"
+		commit.commiter_email == b"suporteandre02@gmail.com"
+'
+git commit --amend --author="Anxp01 <suporteandre02@gmail.com>" --no-edit
+git push --force origin master
