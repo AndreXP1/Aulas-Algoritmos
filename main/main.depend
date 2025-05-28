@@ -1,5 +1,8 @@
 # depslib dependency file v1.0
-1748389466 source:c:\users\8542198\desktop\sabugho\main\main.cpp
+1748391874 source:c:\users\8542198\desktop\sabugho\main\main.cpp
 	<iostream>
 	<vector>
+
+1748392274 source:c:\users\8542198\desktop\sabugho\main\main2.cpp
+	<iostream>
 
